@@ -56,9 +56,12 @@ ul {
   color: #404bbf;
 }
 
+.header-contacts {
+  font-style: normal;
+}
+
 .header-contact-list {
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -92,6 +95,7 @@ ul {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -122,8 +126,13 @@ ul {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.team-list {
+  background-color: #ffffff;
 }
 
 .team-subtitle {
@@ -131,7 +140,6 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -139,7 +147,6 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 .portfolio-title {
@@ -148,6 +155,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
